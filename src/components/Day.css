@@ -1,0 +1,94 @@
+.day {
+    background: #f0f8ff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .day-header span {
+    font-size: 1.2rem;
+  }
+  
+  .day-header button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px;
+  }
+  
+  .day-header button:hover {
+    background-color: #0056b3;
+  }
+  
+  .day-events {
+    margin-top: 10px;
+  }
+  
+  .event {
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  
+  .modal button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal button:first-of-type {
+    background-color: #28a745;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+  }
+  
+  .modal button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+ 
+  }
+  
